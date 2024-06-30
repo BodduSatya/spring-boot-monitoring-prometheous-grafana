@@ -1,5 +1,6 @@
 ### Spring Boot Prometheus & Grafana Dashboard, Alert Configuration
 
+### Agenda:
 1. What is grafana?
 2. What is the benefit of using grafana?
 3. Setting up grafana from scratch
@@ -52,11 +53,13 @@ Download Prometheus server
 
 3) open prometheus.yml in text editor make following configurations
 
+```
 - job_name: 'spring-actuator'
     metrics_path: '/actuator/prometheus'
     scrape_interval: 5s
     static_configs :
     - targets : ['localhost:8888']
+```
 
 4) Start Promethous server , by opening promtool.exe file.
 
@@ -72,8 +75,10 @@ https://grafana.com/grafana/download?platform=windows
 
 3 ) Http://localhost:3000/
 
+```
 Username : admin
 Password: admin
+```
 
 4) setup Grafana datasource
 

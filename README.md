@@ -96,7 +96,8 @@ user =
 password =
 ```
 
-•	restart the grafana server
+•	Restart the grafana server
+
 •	In Grafana dashboard go to alerting tab
 
 
